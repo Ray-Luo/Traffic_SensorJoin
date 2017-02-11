@@ -9,6 +9,7 @@ namespace JoinTable
     class table
     {
         public string key { get; set; }
-        public string value { get; set; }
+        public string locationRef { get; set; }
+        public string intId { get; set; }
     }
 }
